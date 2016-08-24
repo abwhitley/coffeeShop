@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E96599FB1D6CED4100F460F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E96599FA1D6CED4100F460F3 /* main.m */; };
+		E9659A031D6CED6E00F460F3 /* EspressoMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = E9659A021D6CED6E00F460F3 /* EspressoMachine.m */; };
+		E9659A061D6D1A3200F460F3 /* Barista.m in Sources */ = {isa = PBXBuildFile; fileRef = E9659A051D6D1A3200F460F3 /* Barista.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		E96599F71D6CED4100F460F3 /* CoffeeShop */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CoffeeShop; sourceTree = BUILT_PRODUCTS_DIR; };
 		E96599FA1D6CED4100F460F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9659A011D6CED6E00F460F3 /* EspressoMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EspressoMachine.h; sourceTree = "<group>"; };
+		E9659A021D6CED6E00F460F3 /* EspressoMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EspressoMachine.m; sourceTree = "<group>"; };
+		E9659A041D6D1A3200F460F3 /* Barista.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Barista.h; sourceTree = "<group>"; };
+		E9659A051D6D1A3200F460F3 /* Barista.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Barista.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				E96599FA1D6CED4100F460F3 /* main.m */,
+				E9659A041D6D1A3200F460F3 /* Barista.h */,
+				E9659A051D6D1A3200F460F3 /* Barista.m */,
+				E9659A011D6CED6E00F460F3 /* EspressoMachine.h */,
+				E9659A021D6CED6E00F460F3 /* EspressoMachine.m */,
 			);
 			path = CoffeeShop;
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E96599FB1D6CED4100F460F3 /* main.m in Sources */,
+				E9659A061D6D1A3200F460F3 /* Barista.m in Sources */,
+				E9659A031D6CED6E00F460F3 /* EspressoMachine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
