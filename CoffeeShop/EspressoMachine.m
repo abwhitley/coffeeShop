@@ -27,11 +27,21 @@
     }
     if ([delegate waterIsHot:self]) {
         NSLog(@"The Espresso Machine has hot water");
+        [delegate makeEspresso:self];
+
     }else{
         [delegate heatWater:self];
         NSLog(@"The Espresso Machine has hot water now.");
-        
+        [delegate makeEspresso:self];
     }
+    if(![delegate coffeeReady:self]){
+        [delegate espressoMachineDidFinishMakingEspresso:self];
+        NSLog(@"Your coffee is ready");
+    }
+
+    
+    
+    
 
     
     

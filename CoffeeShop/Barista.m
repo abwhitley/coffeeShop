@@ -10,11 +10,11 @@
 
 @implementation Barista
 -(BOOL) hasWater:(EspressoMachine *)espressoMachine{
-    return YES;
+    return NO;
 }
 
 -(BOOL) hasBeans:(EspressoMachine *)espressoMachine{
-    return YES;
+    return NO;
 }
 
 -(BOOL) waterIsHot:(EspressoMachine *)espressoMachine{
@@ -38,5 +38,13 @@
     NSLog(@"Espresso has been made");
 
 }
+- (void)espressoMachineDidFinishMakingEspresso:(EspressoMachine *)espressoMachine{
+    NSLog(@"Espresso has been made");
+}
+-(BOOL)coffeeReady: (EspressoMachine *)espressoMachine{
+    return NO;
+}
+
+
 
 @end

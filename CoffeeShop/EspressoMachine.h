@@ -23,6 +23,7 @@
 -(void)heatWater: (EspressoMachine *) espressoMachine;
 -(void)addBeans: (EspressoMachine *) espressoMachine;
 -(void)addWater: (EspressoMachine *) espressoMachine;
+-(BOOL) coffeeReady: (EspressoMachine *) espresoMachine;
 
-
+- (void)espressoMachineDidFinishMakingEspresso:(EspressoMachine *)espressoMachine;
 @end
